@@ -314,6 +314,45 @@ if (!isset($_SESSION['username'])) {
             }
         });
     </script>
-</body>
+ <!-- Footer Section -->
+    <footer class="bg-white shadow rounded-lg p-6 mt-6">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <!-- WasteWise Description -->
+        <div>
+          <h3 class="font-bold text-lg mb-3">WasteWise</h3>
+          <p class="text-gray-600 text-sm">
+            Making e-waste recycling simple, rewarding, and accessible for everyone in our community.
+          </p>
+        </div>
 
-</html>
+        <!-- Quick Links -->
+        <div>
+          <h3 class="font-bold text-lg mb-3">Quick Links</h3>
+          <ul class="space-y-2 text-sm">
+            <li><a href="#" class="text-gray-600 hover:text-green-700">How It Works</a></li>
+            <li><a href="#" class="text-gray-600 hover:text-green-700">Accepted Items</a></li>
+            <li><a href="#" class="text-gray-600 hover:text-green-700">Become a Collector</a></li>
+            <li><a href="#" class="text-gray-600 hover:text-green-700">FAQ</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact Us -->
+        <div>
+          <h3 class="font-bold text-lg mb-3">Contact Us</h3>
+          <ul class="space-y-2 text-sm text-gray-600">
+            <li>123 Dagupan City</li>
+            <li>contact@wastewise.ph</li>
+            <li>(075) 123-4567</li>
+          </ul>
+        </div>
+      </div>
+
+      <hr class="my-6 border-gray-200">
+
+      <!-- Copyright -->
+      <div class="text-center text-sm text-gray-500">
+        <p>&copy; 2024 WasteWise. All rights reserved.</p>
+      </div>
+    </footer>
+  </main>
+</body>
